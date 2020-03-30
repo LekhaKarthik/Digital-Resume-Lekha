@@ -1,0 +1,133 @@
+body{
+  font-family: "Merriweather Sans";
+  text-align: center;
+}
+
+p {
+  color: #000000;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+/* Colored/Non-Colored Section */
+.colored-section{
+  background-color: #eb002955;
+  color: black;
+}
+
+.white-section{
+  background-color: white;
+  color: black;
+}
+
+/* Navbar Section */
+.navbar {
+  margin: 0;
+  padding: 2% 14% 1%;
+}
+
+.navbar-brand{
+  width: 30%;
+}
+.nav-link{
+  font-weight: lighter;
+  color: #eb0029;
+}
+
+/* Title Section */
+#title{
+  background-color: black;
+  text-align: left;
+  color: #eb0029;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.heading-info{
+  padding-top: 15%;
+}
+
+.title-image{
+  width: 75%;
+  /* height: 400px;
+  width: 400px; */
+  position: relative;
+  left: 30%;
+}
+
+.big-heading{
+  font-size: 6rem;
+  font-family: "Kanit";
+}
+
+@media (max-width: 992px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    width: 40%;
+    left: auto;
+  }
+}
+
+@media (max-width: 768px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    width: 50%;
+    left: auto;
+  }
+}
+
+/* Education Section */
+#education{
+  padding: 100px;
+}
+.edu-column{
+  padding: 3% 2%;
+}
+
+.edu-heading{
+  margin-top: 3%;
+}
+
+.card-header{
+  background-color: black;
+  color: #eb0029;
+}
+
+.card-body{
+  background-color: #eb002955;
+}
+
+/* Experience Section */
+#experience{
+  padding-top: 3%;
+}
+.experience-image{
+  width: 10%;
+  margin: 0 auto 3%;
+}
+
+/* Awards Section */
+#awards{
+  padding: 100px;
+}
+
+/* Footer Section */
+.fa-footer {
+  margin: 20px 10px;
+  color: black;
+}
+
+.fa-footer:hover{
+  color: #eb0029;
+}
+
+.footer-text{
+  color: #8f8f8f;
+}
